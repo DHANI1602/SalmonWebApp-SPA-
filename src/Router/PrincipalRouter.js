@@ -32,7 +32,7 @@ import AppT from '../Components/Portfolio/Areas/Projects/WPA/App.Component.js';
 import Cats from '../Components/Portfolio/Areas/Projects/WPA/Cats.Component.js';
 import Museo from '../Components/Portfolio/Areas/Projects/WPA/Museo.Component.js';
 import Potato from '../Components/Portfolio/Areas/Projects/WPA/Potato.Component.js';
-import Marketing from '../Components/Portfolio/Areas/Projects/Marketing/Marketing.Component.js';
+import Marketing from '../Components/Portfolio/Areas/Projects/Marketing.Component.js';
 const PrincipalRouter = () => {
   return (
     <>
