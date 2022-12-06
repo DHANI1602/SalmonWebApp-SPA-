@@ -4,11 +4,14 @@ import './Portfolio.Modeler.Component.scss';
 const Modeler = () => {
   return (
     <div className="content-box-modeler">
-      <button className="b10 blureable projects-button"></button>
-      <button className="b11 blureable projects-button"></button>
-      <button className="b12 blureable projects-button"></button>
-      <button className="b13 blureable projects-button"></button>
-      <button className="b14 blureable projects-button"></button>
+      <NavLink
+        to="/Cocacola"
+        className="b10 blureable projects-button"
+      ></NavLink>
+      <NavLink to="/Taz" className="b11 blureable projects-button"></NavLink>
+      <NavLink to="/Coco" className="b12 blureable projects-button"></NavLink>
+      <NavLink to="/Office" className="b13 blureable projects-button"></NavLink>
+      <NavLink to="/Goku" className="b14 blureable projects-button"></NavLink>
     </div>
   );
 };

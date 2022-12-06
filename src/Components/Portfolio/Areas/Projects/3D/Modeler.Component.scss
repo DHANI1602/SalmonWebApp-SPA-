@@ -1,0 +1,207 @@
+.Cocacola {
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+  animation-name: cocacola;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+@keyframes cocacola {
+  0% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2Frendercoca.png?alt=media&token=5d0b6956-af45-4b1d-8aff-f0f1e20392a7);
+  }
+  33% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2Frendercoca.png?alt=media&token=5d0b6956-af45-4b1d-8aff-f0f1e20392a7);
+  }
+  34% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2Fsin%20color.png?alt=media&token=7179e953-1f8f-4798-bcf1-aa92f742ecef);
+  }
+  66% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2Fsin%20color.png?alt=media&token=7179e953-1f8f-4798-bcf1-aa92f742ecef);
+  }
+  67% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2Frendercoca2.png?alt=media&token=b09bdf2e-62f3-4cf0-a368-44d44dd71bb1);
+  }
+  100% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2Frendercoca2.png?alt=media&token=b09bdf2e-62f3-4cf0-a368-44d44dd71bb1);
+  }
+}
+//COCO
+.coco {
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+  animation-name: coco;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+.video-coco {
+  width: 600px;
+}
+@keyframes coco {
+  0% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.2.png?alt=media&token=b78b65d6-ff59-4496-9132-86e4fff88eb4);
+  }
+  33% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.2.png?alt=media&token=b78b65d6-ff59-4496-9132-86e4fff88eb4);
+  }
+  34% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.3.png?alt=media&token=ff5d9348-98bc-4d81-94e4-5e25d3c4e690);
+  }
+  66% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.3.png?alt=media&token=ff5d9348-98bc-4d81-94e4-5e25d3c4e690);
+  }
+  67% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.4.png?alt=media&token=ad45df5c-d4d1-4be1-8efc-6c9ff1707609);
+  }
+  100% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.4.png?alt=media&token=ad45df5c-d4d1-4be1-8efc-6c9ff1707609);
+  }
+}
+//Goku
+.goku {
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+  animation-name: goku;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+.video-goku {
+  width: 700px;
+  margin-left: 27%;
+}
+@keyframes goku {
+  0% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.15.png?alt=media&token=dfb23482-3316-40bf-82e9-f9520216d786);
+  }
+  24% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.15.png?alt=media&token=dfb23482-3316-40bf-82e9-f9520216d786);
+  }
+  25% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.10.png?alt=media&token=91d98757-fa38-44c1-b174-d57d25a47b91);
+  }
+  49% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.10.png?alt=media&token=91d98757-fa38-44c1-b174-d57d25a47b91);
+  }
+  50% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.18.png?alt=media&token=f32e39c4-0450-4160-bfb8-ee36e3a5975e);
+  }
+  74% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.18.png?alt=media&token=f32e39c4-0450-4160-bfb8-ee36e3a5975e);
+  }
+  75% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.9.png?alt=media&token=470662cd-63ea-48c0-92d0-d67f8cc2e3c5);
+  }
+  100% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.9.png?alt=media&token=470662cd-63ea-48c0-92d0-d67f8cc2e3c5);
+  }
+}
+//Office
+.office {
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+  animation-name: room;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+.video-office {
+  width: 600px;
+  margin-left: 30%;
+}
+@keyframes room {
+  0% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender7.png?alt=media&token=2004427e-32eb-4ebe-8034-3bd6ae23d13b);
+  }
+  24% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender7.png?alt=media&token=2004427e-32eb-4ebe-8034-3bd6ae23d13b);
+  }
+  25% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender8.png?alt=media&token=b2ccd22a-8d47-447a-bb1f-baacd881b74a);
+  }
+  49% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender8.png?alt=media&token=b2ccd22a-8d47-447a-bb1f-baacd881b74a);
+  }
+  50% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender9.png?alt=media&token=2d1d3733-c7ee-42cb-a60c-12776690cefd);
+  }
+  74% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender9.png?alt=media&token=2d1d3733-c7ee-42cb-a60c-12776690cefd);
+  }
+  75% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender5.png?alt=media&token=c14b9775-47fe-4266-84b3-72b0ce61e556);
+  }
+  100% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitación%2Frender5.png?alt=media&token=c14b9775-47fe-4266-84b3-72b0ce61e556);
+  }
+}
+//Taz
+.taz {
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+  animation-name: taz;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+.video-taz {
+  width: 600px;
+  margin-left: 30%;
+}
+@keyframes taz {
+  0% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fbaby%20taz%2Ftazz.2.png?alt=media&token=e634c33d-ef25-4f12-9169-a7d981dc59a6);
+  }
+  24% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fbaby%20taz%2Ftazz.2.png?alt=media&token=e634c33d-ef25-4f12-9169-a7d981dc59a6);
+  }
+  25% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fbaby%20taz%2Ftazz.1.png?alt=media&token=97fed11e-5a7e-4b3d-99a3-5ad011e6ca3b);
+  }
+  49% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fbaby%20taz%2Ftazz.1.png?alt=media&token=97fed11e-5a7e-4b3d-99a3-5ad011e6ca3b);
+  }
+  50% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Ftazz%2Ftazz.23.png?alt=media&token=51c632d7-f263-45c9-be83-a4a014c39de4);
+  }
+  74% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Ftazz%2Ftazz.23.png?alt=media&token=51c632d7-f263-45c9-be83-a4a014c39de4);
+  }
+  75% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Ftazz%2Ftazz.24.png?alt=media&token=464a265f-6d06-4beb-8641-9d088da7cdb8);
+  }
+  100% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Ftazz%2Ftazz.24.png?alt=media&token=464a265f-6d06-4beb-8641-9d088da7cdb8);
+  }
+}

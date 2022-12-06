@@ -1,15 +1,12 @@
 import React from 'react';
-import './Design.Component.scss';
-const DemonSlayer = () => {
+import './Modeler.Component.scss';
+const Coco = () => {
   return (
     <div className="main-project">
       <div className="project-content">
         <h1 className="secction">Diseño e Ilustración</h1>
         <h1 className="project-title">Shinobu y Giyuu</h1>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza4%2Fpieza%20publicitaria%20demon%20slayer.png?alt=media&token=836d9c0e-4a7d-4a27-8604-55c9004c2b09"
-          className="img-slayer"
-        />
+        <div className="coco" />
         <h1 className="content">
           Pieza realizada para un fan del increíble anime Demon Slayer para su
           habitación , colocando a sus dos personajes favoritos en una sola
@@ -18,11 +15,11 @@ const DemonSlayer = () => {
         </h1>
         <h1 className="Process"> Proceso</h1>
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza4%2Fvector%20demonS.png?alt=media&token=9fce7608-77b2-4676-a5f5-ee2c217ffa99"
+          src="https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.2.png?alt=media&token=b78b65d6-ff59-4496-9132-86e4fff88eb4"
           className="slayer-process"
         ></img>
       </div>
     </div>
   );
 };
-export default DemonSlayer;
+export default Coco;

@@ -1,15 +1,12 @@
 import React from 'react';
-import './Design.Component.scss';
-const DemonSlayer = () => {
+import './Modeler.Component.scss';
+const Cocacola = () => {
   return (
     <div className="main-project">
       <div className="project-content">
         <h1 className="secction">Diseño e Ilustración</h1>
         <h1 className="project-title">Shinobu y Giyuu</h1>
-        <img
-          src="https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza4%2Fpieza%20publicitaria%20demon%20slayer.png?alt=media&token=836d9c0e-4a7d-4a27-8604-55c9004c2b09"
-          className="img-slayer"
-        />
+        <div className="Cocacola" />
         <h1 className="content">
           Pieza realizada para un fan del increíble anime Demon Slayer para su
           habitación , colocando a sus dos personajes favoritos en una sola
@@ -18,11 +15,11 @@ const DemonSlayer = () => {
         </h1>
         <h1 className="Process"> Proceso</h1>
         <img
-          src="https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza4%2Fvector%20demonS.png?alt=media&token=9fce7608-77b2-4676-a5f5-ee2c217ffa99"
+          src="https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2FrenderWireframe%20activado.png?alt=media&token=1f52d432-9d59-4cf3-ba68-e976e6baf675"
           className="slayer-process"
         ></img>
       </div>
     </div>
   );
 };
-export default DemonSlayer;
+export default Cocacola;

@@ -17,6 +17,22 @@ import Nature from '../Components/Portfolio/Areas/Projects/Design/Nature.Compone
 import DemonSlayer from '../Components/Portfolio/Areas/Projects/Design/DemonSlayer.Component.js';
 import GokuPS from '../Components/Portfolio/Areas/Projects/Design/GokuPS.Component.js';
 import DemonFashion from '../Components/Portfolio/Areas/Projects/Postpro/DemonFashion.Component.js';
+import Hospital from '../Components/Portfolio/Areas/Projects/Postpro/Hospital.Component.js';
+import OldAlley from '../Components/Portfolio/Areas/Projects/Postpro/OldAlley.Component.js';
+import Mitra from '../Components/Portfolio/Areas/Projects/Postpro/Mitra.Component.js';
+import Desert from '../Components/Portfolio/Areas/Projects/Postpro/Desert.Component.js';
+import Cocacola from '../Components/Portfolio/Areas/Projects/3D/Cocacola.Component.js';
+import Coco from '../Components/Portfolio/Areas/Projects/3D/Coco.Component.js';
+import Taz from '../Components/Portfolio/Areas/Projects/3D/Taz.Component.js';
+import Office from '../Components/Portfolio/Areas/Projects/3D/Office.Component.js';
+import Goku from '../Components/Portfolio/Areas/Projects/3D/Goku.Component.js';
+import Inverso from '../Components/Portfolio/Areas/Projects/WPA/Inverso.Component.js';
+import Eliminacion from '../Components/Portfolio/Areas/Projects/WPA/Eliminacion.Component.js';
+import AppT from '../Components/Portfolio/Areas/Projects/WPA/App.Component.js';
+import Cats from '../Components/Portfolio/Areas/Projects/WPA/Cats.Component.js';
+import Museo from '../Components/Portfolio/Areas/Projects/WPA/Museo.Component.js';
+import Potato from '../Components/Portfolio/Areas/Projects/WPA/Potato.Component.js';
+import Marketing from '../Components/Portfolio/Areas/Projects/Marketing/Marketing.Component.js';
 const PrincipalRouter = () => {
   return (
     <>
@@ -35,6 +51,22 @@ const PrincipalRouter = () => {
             <Route path="/DemonSlayer" element={<DemonSlayer />} />
             <Route path="/GokuPS" element={<GokuPS />} />
             <Route path="/DemonFashion" element={<DemonFashion />} />
+            <Route path="/Hospital" element={<Hospital />} />
+            <Route path="/Mitra" element={<Mitra />} />
+            <Route path="/OldAlley" element={<OldAlley />} />
+            <Route path="/Desert" element={<Desert />} />
+            <Route path="/Taz" element={<Taz />} />
+            <Route path="/Coco" element={<Coco />} />
+            <Route path="/Goku" element={<Goku />} />
+            <Route path="/Office" element={<Office />} />
+            <Route path="/Cocacola" element={<Cocacola />} />
+            <Route path="/Inverso" element={<Inverso />} />
+            <Route path="/Elimination" element={<Eliminacion />} />
+            <Route path="/Museo" element={<Museo />} />
+            <Route path="/Potato" element={<Potato />} />
+            <Route path="/Cats" element={<Cats />} />
+            <Route path="/App" element={<AppT />} />
+            <Route path="/publicidad" element={<Marketing />} />
             <Route
               path="*"
               element={
