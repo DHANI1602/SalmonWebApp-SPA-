@@ -1,0 +1,291 @@
+//GENERAL
+:root {
+  --grey-color: #2f2e2e;
+  --green-color: #024349;
+  --orange-color: #ff6843;
+  --DARKorange-color: #993f29;
+  --blue-color: #019bc1;
+  --pink-color: #f32287;
+}
+body {
+  background: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/portada1.png?alt=media&token=2eac2ab6-37fa-4111-a8a5-e881b4964521)
+    no-repeat center center fixed;
+  -webkit-background-size: cover;
+  background-size: cover;
+  width: 100%;
+  margin: 0%;
+  color: white;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+p {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 400;
+}
+//GENERAL
+.layout {
+  width: 100%;
+}
+//Nav
+.nav {
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 80px;
+  background-color: black;
+  display: grid;
+  grid-template-areas: 'logo vacio lista';
+  grid-template-columns: 10% 50% 40%;
+  position: fixed;
+  border-radius: 0 0 10px 10px;
+}
+.navli {
+  //estilos generales del Navlink
+  margin: 15px;
+}
+.nav-logo {
+  margin-top: 10%;
+  margin-left: 10%;
+  grid-area: logo;
+  flex-grow: 1;
+}
+.nav-list {
+  text-transform: uppercase;
+  grid-area: lista;
+  display: flex;
+  flex-grow: 2;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+}
+.actived {
+  color: var(--orange-color);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 20px;
+  transition: all 300ms;
+}
+.actived:hover {
+  color: var(--DARKorange-color);
+  font-size: 19px;
+}
+.desabled {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+  transition: all 300ms;
+}
+.desabled:hover {
+  color: rgb(77, 77, 77);
+  font-size: 14px;
+}
+//Nav
+//Content
+.content {
+  min-height: auto;
+}
+//WELCOME COMPONENT
+.welcome {
+  display: grid;
+  grid-template-areas:
+    'main main main main'
+    'first first first first'
+    'info info info info'
+    'finfo finfo fvideo fvideo'
+    'second second second second'
+    'footer footer footer footer';
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-template-rows: 100vh 125px auto auto 125px;
+  width: 100%;
+}
+.salmon-info {
+  grid-area: info;
+  background-color: white;
+}
+.main-content {
+  grid-area: main;
+  text-align: center;
+}
+.main-content h1 {
+  margin-top: 20%;
+  font-size: 25px;
+  width: 100%;
+  font-weight: 400;
+}
+.main-content h5 {
+  height: 0%;
+  font-size: 80px;
+  width: 100%;
+  font-weight: 700;
+}
+.main-content h5:hover {
+  height: 100%;
+}
+.first-line {
+  grid-area: first;
+  width: 100%;
+  background: var(--orange-color);
+}
+.first-line h1 {
+  margin-top: -0.1%;
+  padding-top: 2%;
+  text-align: center;
+  font-size: 40px;
+  height: 100%;
+  transition: all 200ms;
+  font-weight: 700;
+}
+.first-line h1::before {
+  width: 100%;
+  content: 'En un mar con grandes olas, se las mas fuertes';
+}
+.first-line h1:hover:before {
+  width: 100%;
+  content: 'Piensa en GRANDE';
+}
+.first-line:hover {
+  background: var(--green-color);
+  transition: all 200ms;
+}
+.first-info {
+  grid-area: finfo;
+  background: #ddd;
+  justify-content: center;
+}
+.first-info-title {
+  width: 80%;
+  margin-left: 10%;
+  font-size: 34px;
+  font-weight: 700;
+  color: black;
+}
+.first-info-line {
+  margin-left: 10%;
+  width: 50%;
+  height: 2px;
+  background: black;
+}
+.first-info-information {
+  margin-left: 10%;
+  margin-top: 2%;
+  font-size: 20px;
+  width: 50%;
+  color: black;
+}
+.first-video {
+  grid-area: fvideo;
+  background: #ddd;
+}
+.video-left {
+  margin-top: 15%;
+  margin-left: 10%;
+  width: 80%;
+}
+.manifiesto-info-title {
+  margin-top: 10%;
+  margin-left: 10%;
+  font-weight: 700;
+  color: black;
+}
+.manifiesto-info-information {
+  margin-left: 10%;
+  color: black;
+  font-weight: 400;
+  font-size: 18px;
+}
+.second-line {
+  grid-area: second;
+  width: 100%;
+  background: var(--orange-color);
+}
+.second-line h1 {
+  margin-top: -0.1%;
+  padding-top: 2%;
+  text-align: center;
+  font-size: 38px;
+  height: 100%;
+  transition: all 200ms;
+  font-weight: 700;
+}
+.second-line h1::before {
+  width: 100%;
+  content: 'Sigue la direccion del Salmon';
+}
+.second-line h1:hover:before {
+  width: 100%;
+  content: 'Ten la oportunidad de ser DIFERENTE.';
+}
+.second-line:hover {
+  background: var(--green-color);
+  transition: all 200ms;
+}
+.second-info {
+  grid-area: sinfo;
+  background: white;
+  justify-content: center;
+}
+.second-info-title {
+  margin-top: 13%;
+  width: 50%;
+  margin-left: 10%;
+  font-size: 34px;
+  font-weight: 700;
+  color: black;
+}
+.second-info-line {
+  margin-left: 10%;
+  width: 75%;
+  height: 2px;
+  background: black;
+}
+.second-information {
+  margin-left: 10%;
+  margin-top: 2%;
+  font-size: 20px;
+  width: 80%;
+  color: black;
+}
+.second-video {
+  grid-area: svideo;
+  background: var(--grey-color);
+}
+.video-right {
+  margin-top: 5%;
+  margin-left: 10%;
+  width: 80%;
+}
+//WELCOME COMPONENT
+//Content
+//Footer
+.footer {
+  text-align: center;
+  font-size: 14px;
+}
+//Footer
+@media (max-width: 1024px) {
+  .welcome {
+    display: grid;
+    grid-template-areas:
+      'main main main main'
+      'first first first first'
+      'info info info info'
+      'finfo finfo fvideo fvideo'
+      'second second second second';
+    grid-template-columns: 25% 25% 25% 25%;
+    grid-template-rows: 100vh 125px auto auto 125px;
+    width: 100%;
+  }
+  .main-content {
+    margin-top: 20%;
+  }
+  .main-content h1 {
+    font-size: 20px;
+    height: 20%;
+  }
+  .main-content h5 {
+    font-size: 30px;
+  }
+}

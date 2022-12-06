@@ -1,0 +1,51 @@
+.content-box-wpa {
+  justify-self: center;
+  display: grid;
+  grid-template-areas:
+    'b15 b16 b17 b17'
+    'b18 b18 b19 b20';
+  grid-template-rows: 250px 250px;
+  grid-template-columns: auto auto auto auto;
+}
+.b15 {
+  grid-area: b15;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/programacion%2FAPP%2Fapp.jpg?alt=media&token=ccd54bba-6a2f-4225-9f73-382cd439a8f2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+}
+.b16 {
+  grid-area: b16;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/programacion%2FWEB%2Fpotato2.jpg?alt=media&token=0cd38eb8-ca69-4bf4-946e-587a7f1bffa9);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 65%;
+}
+.b17 {
+  grid-area: b17;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/programacion%2FJUEGOS%2Feliminacion.jpg?alt=media&token=d791e306-8f42-49d5-a456-b3c8f66b02f5);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+}
+.b18 {
+  grid-area: b18;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/programacion%2FJUEGOS%2Finverso.jpg?alt=media&token=8b436d1e-ae39-47e2-b458-7c491469e2d6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 30%;
+}
+.b19 {
+  grid-area: b19;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/programacion%2FWEB%2Fgato2.jpg?alt=media&token=5aaf95e4-6f29-4114-a502-403173e42f6c);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55%;
+}
+.b20 {
+  grid-area: b20;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/programacion%2FWEB%2Fmuseum.jpg?alt=media&token=c481e4c1-7205-4609-8c33-2a85ad48035a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 70%;
+}

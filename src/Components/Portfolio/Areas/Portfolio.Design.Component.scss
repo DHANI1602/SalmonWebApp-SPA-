@@ -1,0 +1,46 @@
+.b-components {
+  height: 25px;
+}
+.a-components {
+  height: 125px;
+}
+.content-box {
+  justify-self: center;
+  display: grid;
+  grid-template-areas:
+    'b1 b2 b2'
+    'b3 b3 b4';
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 25% auto 25%;
+}
+.b1 {
+  width: 100%;
+  grid-area: b1;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza2%2Fterminado%20sin%20gifs.png?alt=media&token=b558b9bb-38b1-44f7-b618-5977a75ff801);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.b2 {
+  width: 99%;
+  margin-left: 5px;
+  grid-area: b2;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza1%2Foriginal-naturaleza.png?alt=media&token=e91385fa-ca24-48e5-b39d-7ee4383cd4cd);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 40%;
+}
+.b3 {
+  width: 99%;
+  grid-area: b3;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza4%2Fshinobu%20y%20giyuu1.png?alt=media&token=ef6bf586-a9c0-42d0-8ced-2c2695b7b0c2);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 50%;
+}
+.b4 {
+  width: 100%;
+  grid-area: b4;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/ilustracion%20y%20dise%C3%B1o%2Fpieza3%2Fgoku-original.jpg?alt=media&token=7f122616-be18-455d-b333-1d2d18fa6e8d);
+  background-repeat: no-repeat;
+  background-size: cover;
+}

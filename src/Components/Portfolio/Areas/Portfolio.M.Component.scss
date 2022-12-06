@@ -1,0 +1,17 @@
+.content-box-m {
+  justify-self: center;
+  display: grid;
+  grid-template-areas:
+    'b21 b21'
+    'b21 b21';
+  grid-template-rows: 250px 250px;
+  grid-template-columns: 50% 50%;
+}
+.b21 {
+  grid-area: b21;
+  width: 100%;
+  height: 500px;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/publicidad%2Fportada%20campaña.jpg?alt=media&token=c124ae13-7a63-4dcc-8e1e-ed0fab117ffe);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}

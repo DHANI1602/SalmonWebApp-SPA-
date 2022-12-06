@@ -1,0 +1,34 @@
+//DemonFashion
+.fashionDemon {
+  width: 600px;
+  height: 400px;
+  margin-left: 30%;
+  animation-name: fashionDemon;
+  animation-duration: 5s;
+  animation-play-state: running;
+  animation-iteration-count: infinite;
+  animation-direction: reverse;
+  animation-timing-function: ease;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: rgba(0, 0, 0, 0.007);
+}
+@keyframes fashionDemon {
+  0% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2FDemonio%20fashion%2Frender1.png?alt=media&token=1436d818-b512-4729-b5cc-35c81365641a);
+  }
+  50% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2FDemonio%20fashion%2Frender1.png?alt=media&token=1436d818-b512-4729-b5cc-35c81365641a);
+  }
+  51% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2FDemonio%20fashion%2Frender2.png?alt=media&token=62dd6fc4-496b-4886-93e5-eb36c3cdb55b);
+  }
+  100% {
+    background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2FDemonio%20fashion%2Frender2.png?alt=media&token=62dd6fc4-496b-4886-93e5-eb36c3cdb55b);
+  }
+}
+.demonFashion-process {
+  width: 700px;
+  margin-left: 27%;
+}
+

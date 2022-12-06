@@ -1,0 +1,45 @@
+.content-box-motion {
+  justify-self: center;
+  display: grid;
+  grid-template-areas:
+    'b5 b6 b7'
+    'b8 b8 b7'
+    'b8 b8 b9';
+  grid-template-rows: 240px 20px 240px;
+  grid-template-columns: auto auto 30%;
+}
+.b5 {
+  grid-area: b5;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2FDemonio%20fashion%2Frender1.png?alt=media&token=1436d818-b512-4729-b5cc-35c81365641a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 20%;
+}
+.b6 {
+  grid-area: b6;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2Fhospital%2Fportada3.png?alt=media&token=57939b4f-1da7-4e52-9253-fee28c6d58f6);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 40%;
+}
+.b7 {
+  grid-area: b7;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2FCallej%C3%B3n%20encantado%2Fportada1.jpg?alt=media&token=dd93fa68-2b2d-45fd-8597-b23607102395);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 60%;
+}
+.b8 {
+  grid-area: b8;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2Fmitra%2Fportada4.png?alt=media&token=d0bffc0e-ffb1-423f-903b-8c94190e09fc);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-y: 20%;
+}
+.b9 {
+  grid-area: b9;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/motion%20y%20postproduccion%2Fdesierto%2Fportada5.jpg?alt=media&token=ef02a7ab-8434-4521-859d-ccb304328661);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+}

@@ -1,0 +1,43 @@
+.content-box-modeler {
+  justify-self: center;
+  display: grid;
+  grid-template-areas:
+    'b10 b11 b12'
+    'b13 b13 b14';
+  grid-template-rows: 250px 250px;
+  grid-template-columns: auto auto 50%;
+}
+.b10 {
+  grid-area: b10;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2FNevera%20de%20Coca%20Cola%2Frendercoca.png?alt=media&token=5d0b6956-af45-4b1d-8aff-f0f1e20392a7);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: 50%;
+}
+.b11 {
+  grid-area: b11;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fbaby%20taz%2Ftazz.1.png?alt=media&token=97fed11e-5a7e-4b3d-99a3-5ad011e6ca3b);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55%;
+}
+.b12 {
+  grid-area: b12;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fcoco%2Fcoco.5.png?alt=media&token=9c332934-9aad-4d6b-be8c-464552eae020);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.b13 {
+  grid-area: b13;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis-3919e.appspot.com/o/modelado%203D%2Fhabitaci%C3%B3n%2Frender7.png?alt=media&token=2004427e-32eb-4ebe-8034-3bd6ae23d13b);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.b14 {
+  grid-area: b14;
+  background-image: url(https://firebasestorage.googleapis.com/v0/b/tesis2-c4a1a.appspot.com/o/modelado%203%20d%2Fgoku%2Fgoku2.17.png?alt=media&token=e132ee5c-cca5-4dc7-807b-7dfb8980131a);
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 2%;
+  background-position: 50%;
+}
